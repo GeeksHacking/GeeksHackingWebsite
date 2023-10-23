@@ -1,11 +1,16 @@
 var data = {
     upcoming: {
-        name: "An intro to Docker",
-        link: "https://www.eventbrite.sg/e/thinking-inside-the-box-an-intro-to-docker-tickets-707670580757?aff=geekshacking"
+        name: "Build With Bun",
+        link: "https://www.eventbrite.sg/e/build-with-bun-tickets-743401603207?aff=web"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Build With Bun",
+            photos: 0,
+            description: "Join GeeksHacking to explore Bun, the new super fast JS runtime and toolkit. Its always easier when you are learning with onsite guidance!"
+        },
         {
             name: "An intro to Docker",
             photos: 0,
