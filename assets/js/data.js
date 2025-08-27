@@ -1,11 +1,46 @@
 var data = {
     upcoming: {
-        name: "Sentiment Analysis with Google Cloud",
-        link: "https://www.eventbrite.sg/e/sentiment-analysis-with-google-cloud-tickets-456887632207?aff=web"
+        name: "Building With Flutter",
+        link: "https://www.eventbrite.sg/e/building-with-flutter-tickets-1038715866117?aff=odcleoeventsincollection"
     },
 
-    video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
+    video: "https://www.youtube.com/embed/hvZCYvGVru0?si=s8jJMZWnEesjS3F1",
     events: [
+        {
+            name: "Building With Flutter",
+            photos: 0,
+            description: "Come join us at Building with Flutter to learn how to create awesome mobile apps with Flutter in a fun and interactive environment!"
+        },
+        {
+            name: "Developing GenAI Application with LangChain",
+            photos: 0,
+            description: "In this Geekshacking Worksop, we will be developing GenAI applications in Python using a very popular framework called LangChain."
+        },
+        {
+            name: "Game On",
+            photos: 0,
+            description: "Join GeeksHacking and try building your very first game using Godot Engine, its always easier when you are learning with onsite guidance!"
+        },
+        {
+            name: "Build With Bun",
+            photos: 0,
+            description: "Join GeeksHacking to explore Bun, the new super fast JS runtime and toolkit. Its always easier when you are learning with onsite guidance!"
+        },
+        {
+            name: "An intro to Docker",
+            photos: 0,
+            description: "Join GeeksHacking to explore how to containerize apps using Docker. Its always easier when you are learning with onsite guidance!"
+        },
+        {
+            name: "Reacting With Virtual Doms",
+            photos: 0,
+            description: ""
+        },
+        {
+            name: "Progressive Web App",
+            photos: 0,
+            description: "In this workshop, we will introduce the basics of Building PWAs and walk through the process of building your very first PWA. The workflow includes pulling data from an API, making a webpage and finally putting in the pieces needed for it to be installable onto your mobile."
+        },
         {
             name: "Sentiment Analysis with Google Cloud",
             photos: 0,
