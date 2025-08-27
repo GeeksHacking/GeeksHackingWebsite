@@ -31,3 +31,7 @@ To add a new event to the website, you need to add the event's images and create
 This website is hosted on a virtual server from **UpCloud**.
 
 Deployment is fully automated using **GitHub Actions**. Every push to the `master` branch will automatically trigger a workflow that connects to the server and pulls the latest changes.
+
+## Contact for Changes
+
+For any changes or updates to the website, please reach out to the GeekProjects Admin team.
