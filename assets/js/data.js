@@ -1,7 +1,7 @@
 var data = {
     upcoming: {
-        name: "Building With Flutter",
-        link: "https://www.eventbrite.sg/e/building-with-flutter-tickets-1038715866117?aff=odcleoeventsincollection"
+        name: "Get Ready For Action",
+        link: "https://www.eventbrite.sg/e/git-ready-for-action-workshop-tickets-1609903969109"
     },
 
     video: "https://www.youtube.com/embed/hvZCYvGVru0?si=s8jJMZWnEesjS3F1",
