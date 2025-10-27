@@ -1,7 +1,7 @@
 var data = {
   upcoming: {
     name: "Powering AI with MCP",
-    link: "https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429?aff=oddtdtcreator"
+    link: "https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429"
   },
 
   video: "https://www.youtube.com/embed/hvZCYvGVru0?si=s8jJMZWnEesjS3F1",
