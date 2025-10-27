@@ -1,11 +1,16 @@
 var data = {
   upcoming: {
-    name: "Git Ready For Action",
-    link: "https://www.eventbrite.sg/e/git-ready-for-action-workshop-tickets-1609903969109"
+    name: "Powering AI with MCP",
+    link: "https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429?aff=oddtdtcreator"
   },
 
   video: "https://www.youtube.com/embed/hvZCYvGVru0?si=s8jJMZWnEesjS3F1",
   events: [
+    {
+      name: "Powering AI with MCP",
+      photos: 0,
+      description: "Supercharge AI assistants! Learn to build Model Context Protocol (MCP) servers that bridge the gap between AI and your apps at this workshop"
+    },
     {
       name: "Git Ready For Action",
       photos: 0,
