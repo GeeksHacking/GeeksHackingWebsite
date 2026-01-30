@@ -27,9 +27,19 @@ var data = {
       description: "Come join us at Building with Flutter to learn how to create awesome mobile apps with Flutter in a fun and interactive environment!"
     },
     {
+      name: "Hackomania 2025",
+      photos: 0,
+      description: "HackOMania 2025 challenges you to develop innovative solutions to break free from digital addictions, unhealthy habits, and reconnect with the real world. Let's build a healthier, more connected world, together!"
+    },
+    {
       name: "Developing GenAI Application with LangChain",
       photos: 0,
       description: "In this Geekshacking Worksop, we will be developing GenAI applications in Python using a very popular framework called LangChain."
+    },
+    {
+      name: "Hackomania 2024",
+      photos: 0,
+      description: "HackOMania is an annual hackathon bringing students and tech professionals together over 24 hours to tackle real world challenges. Each year, the GeeksHacking community ventures into unexplored realms to uncover boundless possibilities. For HackOMania 2024, we seek to Innovate for Tomorrow: Building a Resilient Future."
     },
     {
       name: "Game On",
