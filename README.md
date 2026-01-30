@@ -9,7 +9,7 @@ To add a new event to the website, you need to add the event's images and create
 ### 1. Add Event Images
 
 - Create a new folder for your event inside `assets/images/GeeksHacking/Events/`. The folder name should match the event name precisely (e.g., `My Awesome Workshop`).
-- Add a `banner.jpg` to this new folder. This image will be used on the homepage slider.
+- Add a `banner.jpg` (or `banner.png` if you specify `bannerExt: \"png\"` in the event data) to this new folder. This image will be used on the homepage slider.
 - If you have more photos, create a subfolder named `compressed` and add the rest of the event photos there.
 
 ### 2. Add Event Data
@@ -22,6 +22,7 @@ To add a new event to the website, you need to add the event's images and create
 {
   name: "My Awesome Workshop",
   photos: 10, // Number of photos in the 'compressed' folder
+  bannerExt: "jpg", // Optional: specify "png" if using banner.png instead of banner.jpg
   description: "A brief description of the event."
 }
 ```

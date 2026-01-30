@@ -1,11 +1,17 @@
 var data = {
   upcoming: {
-    name: "Powering AI with MCP",
-    link: "https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429"
+    name: "hackomania 2026",
+    link: "https://hackomania.geekshacking.com/"
   },
 
-  video: "https://www.youtube.com/embed/hvZCYvGVru0?si=s8jJMZWnEesjS3F1",
+  video: "https://www.youtube.com/embed/q25_dTLryaQ",
   events: [
+    {
+      name: "hackomania 2026",
+      photos: 0,
+      bannerExt: "png",
+      description: "LLMs, agentic AI, and vibe coding have been making waves everywhere. AI holds immense potential, but the real question is: how can we use it meaningfully? At Hackomania 2026, we'll be ideating, building, and hacking solutions that matter to society. This year, it's all about harnessing AI for good, instead of being replaced by it."
+    },
     {
       name: "Powering AI with MCP",
       photos: 0,
@@ -168,7 +174,8 @@ var content = "";
 for (var index in data.events) {
   let event = data.events[index];
   let name = event.name;
-  let src = "assets/images/GeeksHacking/Events/" + name + "/banner.jpg";
+  let ext = event.bannerExt || "jpg";
+  let src = "assets/images/GeeksHacking/Events/" + name + "/banner." + ext;
   content += "<div class=\"mu-single-screeshot\"><img src=\"" + src + "\" alt=\"App screenshot img\"></div>";
 
   if (name == data.upcoming.name) {
