@@ -9,7 +9,6 @@ var data = {
     {
       name: "Hackomania 2026",
       photos: 0,
-      bannerExt: "png",
       description: "LLMs, agentic AI, and vibe coding have been making waves everywhere. AI holds immense potential, but the real question is: how can we use it meaningfully? At Hackomania 2026, we'll be ideating, building, and hacking solutions that matter to society. This year, it's all about harnessing AI for good, instead of being replaced by it."
     },
     {
