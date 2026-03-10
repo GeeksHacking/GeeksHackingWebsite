@@ -1,3 +1,4 @@
+
 /*
 Template Name: Apex App	
 Author: MarkUps
@@ -28,7 +29,7 @@ Version: 1.0
 
 body,
 html {
-	overflow-x: hidden;
+	overflow-x:hidden;
 }
 
 body {
@@ -50,9 +51,9 @@ ul li {
 	line-height: 1.59;
 }
 
-a {
+a { 
 	text-decoration: none;
-	color: #2f2f2f;
+	color: #2f2f2f;  
 }
 
 a:hover,
@@ -77,25 +78,25 @@ h1 {
 	font-size: 38px;
 }
 
-h2 {
-	font-size: 32px;
-	line-height: 1.13;
+h2 {  
+	font-size: 32px; 
+	line-height: 1.13; 
 }
 
-h3 {
-	font-size: 26px;
+h3 {  
+	font-size: 26px;  
 }
 
-h4 {
-	font-size: 22px;
+h4 {  
+	font-size: 22px;  
 }
 
-h5 {
-	font-size: 20px;
+h5 {  
+	font-size: 20px;  
 }
 
-h6 {
-	font-size: 18px;
+h6 {  
+	font-size: 18px;  
 }
 
 img {
@@ -123,7 +124,7 @@ pre code {
 	color: #333;
 }
 
-del {
+del{
 	text-decoration-color: #ee6e73;
 }
 
@@ -151,7 +152,7 @@ blockquote {
 	background-color: #f8f8f8;
 	border-radius: 0 4px 4px 0;
 	padding: 5px 15px;
-
+	
 }
 
 blockquote p {
@@ -309,7 +310,7 @@ button:focus {
 	height: 455px;
 }
 
-.mu-header-content-area {
+.mu-header-content-area{
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -354,20 +355,20 @@ button:focus {
 .mu-google-btn,
 .mu-windows-btn {
 	border: 2px solid white;
-	border-radius: 50px;
-	color: white;
-	display: inline-block;
-	margin: 0 10px;
-	padding: 11px 22px;
-	text-transform: uppercase;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 11px 22px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .mu-hackomania-btn {
 	border: 2px solid black;
-	color: black;
+    color: black;
 }
 
 .mu-hackomania-btn:hover,
@@ -384,10 +385,10 @@ button:focus {
 .mu-google-btn i,
 .mu-windows-btn i {
 	display: block;
-	float: left;
-	font-size: 20px;
-	line-height: 24px;
-	margin-right: 10px;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
 }
 
 .mu-apple-btn span,
@@ -432,7 +433,7 @@ button:focus {
 	position: absolute;
 	top: 16px;
 	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	        transform: rotate(-45deg);
 	-webkit-transition: -webkit-transform 0.3s ease-out 0s;
 	transition: -webkit-transform 0.3s ease-out 0s;
 	transition: transform 0.3s ease-out 0s;
@@ -442,14 +443,14 @@ button:focus {
 }
 
 .mu-menu-close-btn .mu-line::after {
-	background-color: #fff;
+	 background-color: #fff;
 	content: "";
 	display: block;
 	height: 4px;
 	position: absolute;
 	top: 16px;
 	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
+	        transform: rotate(45deg);
 	-webkit-transition: -webkit-transform 0.3s ease-out 0s;
 	transition: -webkit-transform 0.3s ease-out 0s;
 	transition: transform 0.3s ease-out 0s;
@@ -461,8 +462,8 @@ button:focus {
 .mu-menu-close-btn:hover .mu-line:before,
 .mu-menu-close-btn:hover .mu-line:after {
 	-webkit-transform: rotate(0deg);
-	transform: rotate(0deg);
-}
+	        transform: rotate(0deg);
+} 
 
 /* Menu overlay */
 
@@ -474,24 +475,24 @@ button:focus {
 	position: fixed;
 	right: 0;
 	text-align: center;
-	top: 0;
-	display: none;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+    top: 0;
+    display: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 	width: 100%;
 	z-index: 99999;
 }
 
 .mu-menu-full-overlay-show {
-	display: inline;
+    display: inline;
 }
 
 .mu-menu-full-overlay-inner {
 	display: inline;
 	float: left;
-	padding: 12% 15%;
-	width: 100%;
+	padding: 12% 15%;	
+    width: 100%;
 }
 
 .mu-menu ul li {
@@ -628,7 +629,7 @@ button:focus {
 }
 
 .mu-feature-content-right .media h3 {
-	color: white;
+	color:white;
 }
 
 .mu-feature-content-right .media p {
@@ -668,8 +669,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-video-area h2,
-.mu-video-area p {
+.mu-video-area h2, .mu-video-area p {
 	color: black;
 }
 
@@ -715,7 +715,7 @@ button:focus {
 .mu-video-play-btn:focus {
 	/* color: #fff; */
 	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 .mu-video-close-btn {
@@ -741,11 +741,11 @@ button:focus {
 .mu-video-close-btn:focus {
 	color: #fff;
 	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 .mu-video-iframe-area {
-	background-color: rgba(0, 0, 0, 0.84);
+	background-color: rgba(0,0,0,0.84);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -769,17 +769,16 @@ button:focus {
 .mu-aspect-ratio {
 	position: relative;
 	width: 100%;
-	height: 0;
+	height: 0; 
 	padding-bottom: 51%;
-	margin: 20px 0;
+	margin: 20px 0;	  
 }
 
 .mu-aspect-ratio iframe {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	left: 0; top: 0;
 }
 
 
@@ -803,14 +802,16 @@ button:focus {
 	width: 100%;
 }
 
-.mu-apps-screenshot-content {
+.mu-apps-screenshot-content{
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 
-.mu-apps-screenshot-slider {}
+.mu-apps-screenshot-slider {
+
+}
 
 .mu-single-screeshot {
 	padding: 0 10px;
@@ -854,8 +855,8 @@ button:focus {
 	margin: auto;
 }
 
-#mu-sponsor-logos .mu-title-dot,
-#mu-sponsor-logos .mu-title-dot::before,
+#mu-sponsor-logos .mu-title-dot, 
+#mu-sponsor-logos .mu-title-dot::before, 
 #mu-sponsor-logos .mu-title-dot::after {
 	background-color: black;
 }
@@ -902,7 +903,7 @@ button:focus {
 }
 
 #mu-download::before {
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0,0,0,0.9);
 	bottom: 0;
 	content: '';
 	left: 0;
@@ -963,10 +964,10 @@ button:focus {
 
 .mu-faq-content .panel-default {
 	border-color: #fff;
-	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
 }
 
-.mu-faq-content .panel-default>.panel-heading {
+.mu-faq-content .panel-default > .panel-heading {
 	color: #333;
 	background-color: #fff;
 	border-color: #ddd;
@@ -974,7 +975,7 @@ button:focus {
 
 }
 
-.mu-faq-content .panel-default>.panel-heading+.panel-collapse>.panel-body {
+.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	text-align: left;
 }
 
@@ -1022,7 +1023,7 @@ button:focus {
 	padding: 0 120px;
 }
 
-.mu-contact-content {
+.mu-contact-content{
 	display: inline;
 	float: left;
 	margin-top: 50px;
@@ -1058,7 +1059,7 @@ button:focus {
 	margin-right: 15px;
 }
 
-.mu-contact-right-single p {
+.mu-contact-right-single p{
 	margin-bottom: 0;
 	color: white;
 }
@@ -1094,35 +1095,33 @@ button:focus {
 
 .mu-contact-form .form-control:focus {
 	background-color: black;
-	outline: 0;
-	box-shadow: none;
-}
+    outline: 0;
+    box-shadow: none;    
+} 
 
 .mu-contact-form .form-control::-webkit-input-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-moz-placeholder {
-	/* Firefox 18- */
+.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #888;
+	font-size: 15px; 
+}
+
+.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control::-moz-placeholder {
-	/* Firefox 19+ */
-	color: #888;
-	font-size: 15px;
-}
-
-.mu-contact-form .form-control:-ms-input-placeholder {
+.mu-contact-form .form-control:-ms-input-placeholder {  
 	color: #888;
 	font-size: 15px;
 }
 
 .mu-contact-form .button-default::after,
-.mu-contact-form .button-default>span {
-	padding: 12px 40px;
+.mu-contact-form .button-default > span {
+	padding: 12px 40px;  
 }
 
 .mu-social-media {
@@ -1149,7 +1148,7 @@ button:focus {
 
 #form-messages {
 	margin-bottom: 10px;
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .success {
@@ -1160,8 +1159,8 @@ button:focus {
 	background-color: #dff0d8;
 	border: 1px solid #d6e9c6;
 	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	 -moz-border-radius: 4px;
+	      border-radius: 4px;
 }
 
 .error {
@@ -1172,8 +1171,8 @@ button:focus {
 	background-color: #f2dede;
 	border: 1px solid rgba(185, 74, 72, 0.3);
 	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	 -moz-border-radius: 4px;
+	      border-radius: 4px;
 }
 
 
@@ -1190,7 +1189,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-footer-area {
+.mu-footer-area{
 	display: inline;
 	float: left;
 	padding: 30px 0;
@@ -1249,7 +1248,7 @@ button:focus {
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) {	
 
 	.mu-primary-btn {
 		font-size: 14px;
@@ -1301,7 +1300,6 @@ button:focus {
 		top: 5%;
 		left: 5%;
 	}
-
 	.mu-apps-screenshot-slider .slick-next {
 		right: 0;
 	}
@@ -1316,13 +1314,13 @@ button:focus {
 		height: 40px;
 	}
 
-	.mu-apps-screenshot-slider .slick-prev::before,
+	.mu-apps-screenshot-slider .slick-prev::before, 
 	.mu-apps-screenshot-slider .slick-next::before {
 		font-size: 18px;
 	}
 
 
-
+		
 }
 
 @media (max-width: 767px) {
@@ -1336,11 +1334,11 @@ button:focus {
 	}
 
 	.mu-apple-btn,
-	.mu-google-btn,
+	.mu-google-btn, 
 	.mu-windows-btn {
 		margin-bottom: 10px;
-	}
-
+	} 
+	
 	.mu-menu-btn {
 		top: 44px;
 		font-size: 20px;
@@ -1356,7 +1354,7 @@ button:focus {
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 640px){
 
 	.mu-header-featured-img,
 	.mu-header-featured-content {
@@ -1373,7 +1371,7 @@ button:focus {
 	.mu-title-area {
 		padding: 0;
 	}
-
+			
 	#mu-header .mu-logo {
 		font-size: 300%;
 	}
@@ -1411,11 +1409,11 @@ button:focus {
 	#mu-header .mu-logo {
 		font-size: 200%;
 	}
-
+	
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 360px){
 
 	.mu-video-iframe-area {
 		padding: 15% 5%;
@@ -1428,13 +1426,14 @@ button:focus {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 320px){
 
 	.mu-video-iframe-area {
 		padding: 30% 5%;
 	}
-
-
-
-
+	
+	
+	
+	
 }
+
