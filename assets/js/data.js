@@ -1,7 +1,9 @@
 var data = {
   upcoming: {
     name: "Hackomania 2026",
-    link: "https://hackomania.geekshacking.com/"
+    link: "https://hackomania.geekshacking.com/",
+    registrationCloseDate: "2026-03-06T23:59:59+08:00",
+    endDate: "2026-03-08T13:00:00+08:00"
   },
 
   video: "https://www.youtube.com/embed/q25_dTLryaQ",
@@ -191,6 +193,13 @@ for (var index in data.events) {
     featuredThumbnail.src = src;
     featuredHeader.innerText = name;
     featuredDescription.innerText = event.description;
+    if (data.upcoming.endDate && new Date() > new Date(data.upcoming.endDate)) {
+      registerContainer.innerText = "Event has concluded!";
+      registerButtonText.innerText = "View Info";
+    } else if (data.upcoming.registrationCloseDate && new Date() > new Date(data.upcoming.registrationCloseDate)) {
+      registerContainer.innerText = "Registration Closed!";
+      registerButtonText.innerText = "Find Out More";
+    }
   }
 }
 
