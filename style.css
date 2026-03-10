@@ -336,14 +336,14 @@ button:focus {
 	color: white;
 }
 
-.mu-app-download-area {
+.mu-header-cta-area {
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 
-.mu-app-download-area h4 {
+.mu-header-cta-area h4 {
 	color: white;
 	font-size: 18px;
 	font-weight: 300;
@@ -1329,7 +1329,7 @@ button:focus {
 		font-size: 35px;
 	}
 
-	.mu-app-download-area {
+	.mu-header-cta-area {
 		margin-top: 20px;
 	}
 

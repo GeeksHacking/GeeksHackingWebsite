@@ -173,7 +173,9 @@ var featuredContent = document.getElementsByClassName("mu-header-featured-conten
 var featuredHeader = featuredContent.getElementsByTagName("h1")[0].getElementsByTagName("span")[0];
 var featuredDescription = featuredContent.getElementsByTagName("p")[0];
 
+var registerContainer = document.getElementsByClassName("mu-header-cta")[0];
 var registerButton = document.getElementsByClassName("mu-apple-btn")[0];
+var registerButtonText = registerButton.getElementsByTagName("span")[0];
 registerButton.href = data.upcoming.link;
 
 var pastEvents = document.getElementById("mu-apps-screenshot");
