@@ -6,7 +6,7 @@ var data = {
     endDate: "2026-03-08T13:00:00+08:00"
   },
 
-  video: "https://www.youtube.com/embed/q25_dTLryaQ",
+  video: "https://www.youtube.com/embed/bDgYFvK70Bw?si=uZlxfy3A5Gn64D-f",
   events: [
     {
       name: "Hackomania 2026",
