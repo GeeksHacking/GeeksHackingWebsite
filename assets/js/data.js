@@ -29,6 +29,11 @@ var data = {
       description: "Git Ready for Action Workshop by GeeksHacking! Learn about implementing CI/CD using GitHub Actions and real life case studies. Join us!"
     },
     {
+      name: "Season of AI Agents",
+      photos: 0,
+      description: "Learn AI agent trends & build your own with Azure tools in this hands-on workshop. Join us!",
+    },
+    {
       name: "Building With Flutter",
       photos: 0,
       description: "Come join us at Building with Flutter to learn how to create awesome mobile apps with Flutter in a fun and interactive environment!"
