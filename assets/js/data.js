@@ -1,7 +1,7 @@
 var data = {
   upcoming: {
     name: "Beyond The Vibes",
-    link: "registration at https://portal.geekshacking.com/workshops/BeyondVibes",
+    link: "https://portal.geekshacking.com/workshops/BeyondVibes",
     registrationCloseDate: "2026-05-08T23:59:59+08:00",
     endDate: "2026-05-09T18:00:00+08:00"
   },
