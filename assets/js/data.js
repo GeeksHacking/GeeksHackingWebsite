@@ -1,13 +1,17 @@
 var data = {
   upcoming: {
-    name: "Beyond The Vibes",
-    link: "https://portal.geekshacking.com/workshops/BeyondVibes",
-    registrationCloseDate: "2026-05-08T23:59:59+08:00",
-    endDate: "2026-05-09T18:00:00+08:00"
+    name: "From Container to Cluster",
+    link: "https://portal.geekshacking.com/workshops/kubernetes"
   },
 
   video: "https://www.youtube.com/embed/bDgYFvK70Bw",
   events: [
+    {
+      name: "From Container to Cluster",
+      bannerExt: "png",
+      photos: 0,
+      description: "It works on your machine.\nIt works in Docker.\nNow the real fun begins.\nThis is a free 4-hour hands-on workshop from GeeksHacking on turning a containerised application into a workload running in a Kubernetes cluster."
+    },
     {
       name: "Beyond The Vibes",
       photos: 0,
