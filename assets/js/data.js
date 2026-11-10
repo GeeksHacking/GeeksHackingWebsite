@@ -1,11 +1,18 @@
 var data = {
   upcoming: {
-    name: "From Container to Cluster",
-    link: "https://portal.geekshacking.com/workshops/kubernetes"
+    name: "From Prompts to Agents",
+    link: "https://portal.geekshacking.com/workshops/aiagentic",
+    endDate: "2026-11-21T18:00:00+08:00"
   },
 
   video: "https://www.youtube.com/embed/bDgYFvK70Bw",
   events: [
+    {
+      name: "From Prompts to Agents",
+      bannerExt: "png",
+      photos: 0,
+      description: "You've used AI to write code.\nYou've used it to summarise documents.\nNow it's time to build your own AI workflow.\nThis is a free hands-on workshop by GeeksHacking and Trainocate on designing agentic workflows, where AI agents help with the repetitive parts of your work while you make the decisions."
+    },
     {
       name: "From Container to Cluster",
       bannerExt: "png",
